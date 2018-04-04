@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		借阅管理
+	</title>
+	<link rel="stylesheet" href="assets/css/table.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/fonts/font-awesome-4.4.0/css/font-awesome.css" />
+    <script type="text/javascript" src="js/submit.js"></script>
+</head>
+
+<body>
+
+
+	<div>
+		<div class="text-center book-label">
+            <label>书&nbsp&nbsp&nbsp&nbsp号 </label>
+            <input id="borrow_bkn" name="book_number" class="user-input" tabindex="1" type="text" value="" size="25" autocomplete="off"/>
+        </div>
+
+        <div class="text-center book-label">
+            <label>卡&nbsp&nbsp&nbsp&nbsp号</label>
+            <input id="borrow_ckn" name="book_type" class="user-input" tabindex="2" type="text" value="" size="25" autocomplete="off"/>
+        </div>
+
+        <div class="text-center book-label">
+            <label>借&nbsp&nbsp&nbsp&nbsp还 </label>
+            <select>
+                <option value="borrow">借阅</option>
+                <option value="return">还书</option>
+            </select>
+        </div>
+		
+		<div class="submit-button">
+			<button type="button" class="btn btn-block btn-primary submit-btn" id="brrow-btn">提交 </button>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
